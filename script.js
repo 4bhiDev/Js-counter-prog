@@ -19,11 +19,11 @@ decreaseBtn.onclick = function(){
 resetBtn.onclick = function(){
     count = 0;
     multiplier = 1;
-    multipleBtn.textContent = "1x"
+    multipleBtn.textContent = "+1"
     counterLabel.textContent = count;
 }
 
 multipleBtn.onclick = function(){
     multiplier++;
-    multipleBtn.textContent = multiplier + "x" ;
+    multipleBtn.textContent = "+" + multiplier ;
 }
